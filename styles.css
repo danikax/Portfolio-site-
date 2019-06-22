@@ -1,25 +1,33 @@
-
 h1 {
-  color: green;
-  font-size: 5rem;
-  font-color: navy;
-  font-style:italic;
+  color: #13445A;
+  font-size: 2rem;
+  /* font-color: #13445A; */
+  font-style: italic;
 }
 
+p {
+  color: #446878
+}
+
+body {
+  background-color: #FEF4E8;
+}
+
+/* DIVS */
 .wholePage {
-
-
+  background-color: #446878;
 }
-
 
 .main-body {
-background-color: green;
-
+  background-color: navy;
 }
 
-
 .contact {
+  background-color: maroon;
+}
 
-  background-color: red;
-  
+.displayPicture {
+  width: 15%;
+  height: 15%;
+  border-radius: 15px;
 }
