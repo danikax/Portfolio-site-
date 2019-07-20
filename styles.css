@@ -1,16 +1,22 @@
-h1 {
+ h1 {
   color: #13445A;
   font-size: 2rem;
   /* font-color: #13445A; */
   font-style: italic;
+  text-align: center;
+}
+  .menu-container{
+    display: flex;
 }
 
 p {
-  color: #446878
+  color: #446878;
+  text-align: centre;
 }
 
 body {
-  background-color: #FEF4E8;
+  background-color:#FEF4E8;
+  text-align: center;
 }
 
 /* DIVS */
