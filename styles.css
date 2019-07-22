@@ -35,5 +35,7 @@ body {
 .displayPicture {
   width: 15%;
   height: 15%;
-  border-radius: 15px;
+}
+.roundImage {
+  border-radius: 50px;
 }
