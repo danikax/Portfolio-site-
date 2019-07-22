@@ -1,3 +1,53 @@
+
+* {
+  margin: 0;
+}
+
+html {
+  width: 100%;
+}
+
+
+/* NAVBAR THEMES */
+.navbar {
+  background-color: #17223B;
+}
+
+.navbar-brand,  .nav-link {
+  color: #F7BE16;
+
+}
+
+.navbar-brand:hover,  .nav-link:hover {
+  color: #00818A;
+
+}
+.mainContainer {
+  height: 800px;
+  background-color: #216583;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.titlePic {
+  height:100%;
+}
+
  h1 {
   color: #13445A;
   font-size: 2rem;
@@ -35,7 +85,11 @@ body {
 .displayPicture {
   width: 15%;
   height: 15%;
+  border-radius: 5%;
 }
-.roundImage {
-  border-radius: 50px;
+
+.displayPicture {
+  width: 15%;
+  height: 15%;
+  border-radius: 5%;
 }
